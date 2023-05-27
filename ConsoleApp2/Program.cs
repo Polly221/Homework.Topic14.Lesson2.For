@@ -1,18 +1,18 @@
-﻿////1
-//Random rnd = new Random();
-//int temperature = 0;
-//for (int i = 1; i < 2; i++)
-//{
-//    int a = rnd.Next(1, 101);
-//    temperature = a;
-//    Console.WriteLine("Текущая температура: " + temperature);
-//    if (temperature > 90)
-//    {
-//        Console.WriteLine("Остановка работы устройства!!!");
-//        break;
-//    }
-//}
-//Console.WriteLine();
+//1
+Random rnd = new Random();
+int temperature = 0;
+for (int i = 1; i < 2; i++)
+{
+    int a = rnd.Next(1, 101);
+    temperature = a;
+    Console.WriteLine("Текущая температура: " + temperature);
+    if (temperature > 90)
+    {
+        Console.WriteLine("Остановка работы устройства!!!");
+        break;
+    }
+}
+Console.WriteLine();
 
 //2
 Console.Write("Укажите количество квадратов: ");
